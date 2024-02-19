@@ -7,7 +7,7 @@ conda activate venv/
 -Generate Google API Key https://makersuite.google.com/app/apikey
 -create .env file and  write Google Gemini APIKEY here
 
--app.py
+-qachat.py
 > pip install -r requirements.txt
 
 
@@ -15,11 +15,6 @@ conda activate venv/
 -Open .env file put code
  GOOGLE_API_KEY="Paste your GOOGLE_APIKEY"
 
-> streamlit run health.py
+> streamlit run qachat.py
 
 
-***Health LLM APP is uploaded on Streamlite. URL is - 
-https://healthappappgeminillm-6yhhy9nwjame5rupsg9pnd.streamlit.app/
-
-***Github link
-https://github.com/YogeshRaje/Healthapp_GoogleGeminiLLM.git
